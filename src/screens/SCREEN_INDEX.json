@@ -1,0 +1,536 @@
+[
+  {
+    "screenId": "fallback-dashboard",
+    "title": "Dashboard",
+    "componentName": "Dashboard",
+    "file": "src/screens/Dashboard.tsx",
+    "buttons": 2,
+    "inputs": 0,
+    "links": 7,
+    "actions": [
+      {
+        "id": "pause-1",
+        "kind": "button",
+        "label": "Pause",
+        "index": 0
+      },
+      {
+        "id": "restart-2",
+        "kind": "button",
+        "label": "Restart",
+        "index": 1
+      },
+      {
+        "id": "dashboard-1",
+        "kind": "link",
+        "label": "Dashboard",
+        "href": "#fallback-dashboard",
+        "index": 0
+      },
+      {
+        "id": "create-edit-2",
+        "kind": "link",
+        "label": "Create Edit",
+        "href": "#fallback-create-edit",
+        "index": 1
+      },
+      {
+        "id": "detail-3",
+        "kind": "link",
+        "label": "Detail",
+        "href": "#fallback-detail",
+        "index": 2
+      },
+      {
+        "id": "insights-4",
+        "kind": "link",
+        "label": "Insights",
+        "href": "#fallback-insights",
+        "index": 3
+      },
+      {
+        "id": "settings-5",
+        "kind": "link",
+        "label": "Settings",
+        "href": "#fallback-settings",
+        "index": 4
+      },
+      {
+        "id": "error-state-6",
+        "kind": "link",
+        "label": "Error State",
+        "href": "#fallback-error-state",
+        "index": 5
+      },
+      {
+        "id": "empty-state-7",
+        "kind": "link",
+        "label": "Empty State",
+        "href": "#fallback-empty-state",
+        "index": 6
+      }
+    ]
+  },
+  {
+    "screenId": "fallback-create-edit",
+    "title": "Create Edit",
+    "componentName": "CreateEdit",
+    "file": "src/screens/CreateEdit.tsx",
+    "buttons": 3,
+    "inputs": 0,
+    "links": 7,
+    "actions": [
+      {
+        "id": "start-game-1",
+        "kind": "button",
+        "label": "Start Game",
+        "index": 0
+      },
+      {
+        "id": "resume-2",
+        "kind": "button",
+        "label": "Resume",
+        "index": 1
+      },
+      {
+        "id": "open-settings-3",
+        "kind": "button",
+        "label": "Open Settings",
+        "index": 2
+      },
+      {
+        "id": "dashboard-1",
+        "kind": "link",
+        "label": "Dashboard",
+        "href": "#fallback-dashboard",
+        "index": 0
+      },
+      {
+        "id": "create-edit-2",
+        "kind": "link",
+        "label": "Create Edit",
+        "href": "#fallback-create-edit",
+        "index": 1
+      },
+      {
+        "id": "detail-3",
+        "kind": "link",
+        "label": "Detail",
+        "href": "#fallback-detail",
+        "index": 2
+      },
+      {
+        "id": "insights-4",
+        "kind": "link",
+        "label": "Insights",
+        "href": "#fallback-insights",
+        "index": 3
+      },
+      {
+        "id": "settings-5",
+        "kind": "link",
+        "label": "Settings",
+        "href": "#fallback-settings",
+        "index": 4
+      },
+      {
+        "id": "error-state-6",
+        "kind": "link",
+        "label": "Error State",
+        "href": "#fallback-error-state",
+        "index": 5
+      },
+      {
+        "id": "empty-state-7",
+        "kind": "link",
+        "label": "Empty State",
+        "href": "#fallback-empty-state",
+        "index": 6
+      }
+    ]
+  },
+  {
+    "screenId": "fallback-detail",
+    "title": "Detail",
+    "componentName": "Detail",
+    "file": "src/screens/Detail.tsx",
+    "buttons": 3,
+    "inputs": 0,
+    "links": 7,
+    "actions": [
+      {
+        "id": "start-game-1",
+        "kind": "button",
+        "label": "Start Game",
+        "index": 0
+      },
+      {
+        "id": "resume-2",
+        "kind": "button",
+        "label": "Resume",
+        "index": 1
+      },
+      {
+        "id": "open-settings-3",
+        "kind": "button",
+        "label": "Open Settings",
+        "index": 2
+      },
+      {
+        "id": "dashboard-1",
+        "kind": "link",
+        "label": "Dashboard",
+        "href": "#fallback-dashboard",
+        "index": 0
+      },
+      {
+        "id": "create-edit-2",
+        "kind": "link",
+        "label": "Create Edit",
+        "href": "#fallback-create-edit",
+        "index": 1
+      },
+      {
+        "id": "detail-3",
+        "kind": "link",
+        "label": "Detail",
+        "href": "#fallback-detail",
+        "index": 2
+      },
+      {
+        "id": "insights-4",
+        "kind": "link",
+        "label": "Insights",
+        "href": "#fallback-insights",
+        "index": 3
+      },
+      {
+        "id": "settings-5",
+        "kind": "link",
+        "label": "Settings",
+        "href": "#fallback-settings",
+        "index": 4
+      },
+      {
+        "id": "error-state-6",
+        "kind": "link",
+        "label": "Error State",
+        "href": "#fallback-error-state",
+        "index": 5
+      },
+      {
+        "id": "empty-state-7",
+        "kind": "link",
+        "label": "Empty State",
+        "href": "#fallback-empty-state",
+        "index": 6
+      }
+    ]
+  },
+  {
+    "screenId": "fallback-insights",
+    "title": "Insights",
+    "componentName": "Insights",
+    "file": "src/screens/Insights.tsx",
+    "buttons": 3,
+    "inputs": 0,
+    "links": 7,
+    "actions": [
+      {
+        "id": "start-game-1",
+        "kind": "button",
+        "label": "Start Game",
+        "index": 0
+      },
+      {
+        "id": "resume-2",
+        "kind": "button",
+        "label": "Resume",
+        "index": 1
+      },
+      {
+        "id": "open-settings-3",
+        "kind": "button",
+        "label": "Open Settings",
+        "index": 2
+      },
+      {
+        "id": "dashboard-1",
+        "kind": "link",
+        "label": "Dashboard",
+        "href": "#fallback-dashboard",
+        "index": 0
+      },
+      {
+        "id": "create-edit-2",
+        "kind": "link",
+        "label": "Create Edit",
+        "href": "#fallback-create-edit",
+        "index": 1
+      },
+      {
+        "id": "detail-3",
+        "kind": "link",
+        "label": "Detail",
+        "href": "#fallback-detail",
+        "index": 2
+      },
+      {
+        "id": "insights-4",
+        "kind": "link",
+        "label": "Insights",
+        "href": "#fallback-insights",
+        "index": 3
+      },
+      {
+        "id": "settings-5",
+        "kind": "link",
+        "label": "Settings",
+        "href": "#fallback-settings",
+        "index": 4
+      },
+      {
+        "id": "error-state-6",
+        "kind": "link",
+        "label": "Error State",
+        "href": "#fallback-error-state",
+        "index": 5
+      },
+      {
+        "id": "empty-state-7",
+        "kind": "link",
+        "label": "Empty State",
+        "href": "#fallback-empty-state",
+        "index": 6
+      }
+    ]
+  },
+  {
+    "screenId": "fallback-settings",
+    "title": "Settings",
+    "componentName": "Settings",
+    "file": "src/screens/Settings.tsx",
+    "buttons": 2,
+    "inputs": 1,
+    "links": 7,
+    "actions": [
+      {
+        "id": "save-settings-1",
+        "kind": "button",
+        "label": "Save Settings",
+        "index": 0
+      },
+      {
+        "id": "reset-defaults-2",
+        "kind": "button",
+        "label": "Reset Defaults",
+        "index": 1
+      },
+      {
+        "id": "dashboard-1",
+        "kind": "link",
+        "label": "Dashboard",
+        "href": "#fallback-dashboard",
+        "index": 0
+      },
+      {
+        "id": "create-edit-2",
+        "kind": "link",
+        "label": "Create Edit",
+        "href": "#fallback-create-edit",
+        "index": 1
+      },
+      {
+        "id": "detail-3",
+        "kind": "link",
+        "label": "Detail",
+        "href": "#fallback-detail",
+        "index": 2
+      },
+      {
+        "id": "insights-4",
+        "kind": "link",
+        "label": "Insights",
+        "href": "#fallback-insights",
+        "index": 3
+      },
+      {
+        "id": "settings-5",
+        "kind": "link",
+        "label": "Settings",
+        "href": "#fallback-settings",
+        "index": 4
+      },
+      {
+        "id": "error-state-6",
+        "kind": "link",
+        "label": "Error State",
+        "href": "#fallback-error-state",
+        "index": 5
+      },
+      {
+        "id": "empty-state-7",
+        "kind": "link",
+        "label": "Empty State",
+        "href": "#fallback-empty-state",
+        "index": 6
+      }
+    ]
+  },
+  {
+    "screenId": "fallback-error-state",
+    "title": "Error State",
+    "componentName": "ErrorState",
+    "file": "src/screens/ErrorState.tsx",
+    "buttons": 3,
+    "inputs": 0,
+    "links": 7,
+    "actions": [
+      {
+        "id": "start-game-1",
+        "kind": "button",
+        "label": "Start Game",
+        "index": 0
+      },
+      {
+        "id": "resume-2",
+        "kind": "button",
+        "label": "Resume",
+        "index": 1
+      },
+      {
+        "id": "open-settings-3",
+        "kind": "button",
+        "label": "Open Settings",
+        "index": 2
+      },
+      {
+        "id": "dashboard-1",
+        "kind": "link",
+        "label": "Dashboard",
+        "href": "#fallback-dashboard",
+        "index": 0
+      },
+      {
+        "id": "create-edit-2",
+        "kind": "link",
+        "label": "Create Edit",
+        "href": "#fallback-create-edit",
+        "index": 1
+      },
+      {
+        "id": "detail-3",
+        "kind": "link",
+        "label": "Detail",
+        "href": "#fallback-detail",
+        "index": 2
+      },
+      {
+        "id": "insights-4",
+        "kind": "link",
+        "label": "Insights",
+        "href": "#fallback-insights",
+        "index": 3
+      },
+      {
+        "id": "settings-5",
+        "kind": "link",
+        "label": "Settings",
+        "href": "#fallback-settings",
+        "index": 4
+      },
+      {
+        "id": "error-state-6",
+        "kind": "link",
+        "label": "Error State",
+        "href": "#fallback-error-state",
+        "index": 5
+      },
+      {
+        "id": "empty-state-7",
+        "kind": "link",
+        "label": "Empty State",
+        "href": "#fallback-empty-state",
+        "index": 6
+      }
+    ]
+  },
+  {
+    "screenId": "fallback-empty-state",
+    "title": "Empty State",
+    "componentName": "EmptyState",
+    "file": "src/screens/EmptyState.tsx",
+    "buttons": 3,
+    "inputs": 0,
+    "links": 7,
+    "actions": [
+      {
+        "id": "start-game-1",
+        "kind": "button",
+        "label": "Start Game",
+        "index": 0
+      },
+      {
+        "id": "resume-2",
+        "kind": "button",
+        "label": "Resume",
+        "index": 1
+      },
+      {
+        "id": "open-settings-3",
+        "kind": "button",
+        "label": "Open Settings",
+        "index": 2
+      },
+      {
+        "id": "dashboard-1",
+        "kind": "link",
+        "label": "Dashboard",
+        "href": "#fallback-dashboard",
+        "index": 0
+      },
+      {
+        "id": "create-edit-2",
+        "kind": "link",
+        "label": "Create Edit",
+        "href": "#fallback-create-edit",
+        "index": 1
+      },
+      {
+        "id": "detail-3",
+        "kind": "link",
+        "label": "Detail",
+        "href": "#fallback-detail",
+        "index": 2
+      },
+      {
+        "id": "insights-4",
+        "kind": "link",
+        "label": "Insights",
+        "href": "#fallback-insights",
+        "index": 3
+      },
+      {
+        "id": "settings-5",
+        "kind": "link",
+        "label": "Settings",
+        "href": "#fallback-settings",
+        "index": 4
+      },
+      {
+        "id": "error-state-6",
+        "kind": "link",
+        "label": "Error State",
+        "href": "#fallback-error-state",
+        "index": 5
+      },
+      {
+        "id": "empty-state-7",
+        "kind": "link",
+        "label": "Empty State",
+        "href": "#fallback-empty-state",
+        "index": 6
+      }
+    ]
+  }
+]
