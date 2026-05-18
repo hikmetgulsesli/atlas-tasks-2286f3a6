@@ -1,0 +1,850 @@
+[
+  {
+    "screenId": "fallback-dashboard",
+    "screenTitle": "Dashboard",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "Dashboard",
+        "href": "#fallback-dashboard",
+        "line": 1
+      },
+      {
+        "type": "link",
+        "label": "Create Edit",
+        "href": "#fallback-create-edit",
+        "line": 2
+      },
+      {
+        "type": "link",
+        "label": "Detail",
+        "href": "#fallback-detail",
+        "line": 3
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#fallback-insights",
+        "line": 4
+      },
+      {
+        "type": "link",
+        "label": "Settings",
+        "href": "#fallback-settings",
+        "line": 5
+      },
+      {
+        "type": "link",
+        "label": "Error State",
+        "href": "#fallback-error-state",
+        "line": 6
+      },
+      {
+        "type": "link",
+        "label": "Empty State",
+        "href": "#fallback-empty-state",
+        "line": 7
+      },
+      {
+        "type": "button",
+        "label": "Start Game",
+        "line": 1
+      },
+      {
+        "type": "button",
+        "label": "Open Settings",
+        "line": 1
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "Dashboard",
+        "href": "#fallback-dashboard",
+        "line": 1
+      },
+      {
+        "type": "link",
+        "label": "Create Edit",
+        "href": "#fallback-create-edit",
+        "line": 2
+      },
+      {
+        "type": "link",
+        "label": "Detail",
+        "href": "#fallback-detail",
+        "line": 3
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#fallback-insights",
+        "line": 4
+      },
+      {
+        "type": "link",
+        "label": "Settings",
+        "href": "#fallback-settings",
+        "line": 5
+      },
+      {
+        "type": "link",
+        "label": "Error State",
+        "href": "#fallback-error-state",
+        "line": 6
+      },
+      {
+        "type": "link",
+        "label": "Empty State",
+        "href": "#fallback-empty-state",
+        "line": 7
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "Start Game",
+        "line": 1
+      },
+      {
+        "type": "button",
+        "label": "Open Settings",
+        "line": 1
+      }
+    ],
+    "inputs": [],
+    "hardcodedData": [],
+    "totalInteractive": 9,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "fallback-create-edit",
+    "screenTitle": "Create Edit",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "Dashboard",
+        "href": "#fallback-dashboard",
+        "line": 1
+      },
+      {
+        "type": "link",
+        "label": "Create Edit",
+        "href": "#fallback-create-edit",
+        "line": 2
+      },
+      {
+        "type": "link",
+        "label": "Detail",
+        "href": "#fallback-detail",
+        "line": 3
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#fallback-insights",
+        "line": 4
+      },
+      {
+        "type": "link",
+        "label": "Settings",
+        "href": "#fallback-settings",
+        "line": 5
+      },
+      {
+        "type": "link",
+        "label": "Error State",
+        "href": "#fallback-error-state",
+        "line": 6
+      },
+      {
+        "type": "link",
+        "label": "Empty State",
+        "href": "#fallback-empty-state",
+        "line": 7
+      },
+      {
+        "type": "button",
+        "label": "Restart",
+        "line": 1
+      },
+      {
+        "type": "button",
+        "label": "Open Settings",
+        "line": 1
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "Dashboard",
+        "href": "#fallback-dashboard",
+        "line": 1
+      },
+      {
+        "type": "link",
+        "label": "Create Edit",
+        "href": "#fallback-create-edit",
+        "line": 2
+      },
+      {
+        "type": "link",
+        "label": "Detail",
+        "href": "#fallback-detail",
+        "line": 3
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#fallback-insights",
+        "line": 4
+      },
+      {
+        "type": "link",
+        "label": "Settings",
+        "href": "#fallback-settings",
+        "line": 5
+      },
+      {
+        "type": "link",
+        "label": "Error State",
+        "href": "#fallback-error-state",
+        "line": 6
+      },
+      {
+        "type": "link",
+        "label": "Empty State",
+        "href": "#fallback-empty-state",
+        "line": 7
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "Restart",
+        "line": 1
+      },
+      {
+        "type": "button",
+        "label": "Open Settings",
+        "line": 1
+      }
+    ],
+    "inputs": [],
+    "hardcodedData": [],
+    "totalInteractive": 9,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "fallback-detail",
+    "screenTitle": "Detail",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "Dashboard",
+        "href": "#fallback-dashboard",
+        "line": 1
+      },
+      {
+        "type": "link",
+        "label": "Create Edit",
+        "href": "#fallback-create-edit",
+        "line": 2
+      },
+      {
+        "type": "link",
+        "label": "Detail",
+        "href": "#fallback-detail",
+        "line": 3
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#fallback-insights",
+        "line": 4
+      },
+      {
+        "type": "link",
+        "label": "Settings",
+        "href": "#fallback-settings",
+        "line": 5
+      },
+      {
+        "type": "link",
+        "label": "Error State",
+        "href": "#fallback-error-state",
+        "line": 6
+      },
+      {
+        "type": "link",
+        "label": "Empty State",
+        "href": "#fallback-empty-state",
+        "line": 7
+      },
+      {
+        "type": "button",
+        "label": "Restart",
+        "line": 1
+      },
+      {
+        "type": "button",
+        "label": "Open Settings",
+        "line": 1
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "Dashboard",
+        "href": "#fallback-dashboard",
+        "line": 1
+      },
+      {
+        "type": "link",
+        "label": "Create Edit",
+        "href": "#fallback-create-edit",
+        "line": 2
+      },
+      {
+        "type": "link",
+        "label": "Detail",
+        "href": "#fallback-detail",
+        "line": 3
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#fallback-insights",
+        "line": 4
+      },
+      {
+        "type": "link",
+        "label": "Settings",
+        "href": "#fallback-settings",
+        "line": 5
+      },
+      {
+        "type": "link",
+        "label": "Error State",
+        "href": "#fallback-error-state",
+        "line": 6
+      },
+      {
+        "type": "link",
+        "label": "Empty State",
+        "href": "#fallback-empty-state",
+        "line": 7
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "Restart",
+        "line": 1
+      },
+      {
+        "type": "button",
+        "label": "Open Settings",
+        "line": 1
+      }
+    ],
+    "inputs": [],
+    "hardcodedData": [],
+    "totalInteractive": 9,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "fallback-insights",
+    "screenTitle": "Insights",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "Dashboard",
+        "href": "#fallback-dashboard",
+        "line": 1
+      },
+      {
+        "type": "link",
+        "label": "Create Edit",
+        "href": "#fallback-create-edit",
+        "line": 2
+      },
+      {
+        "type": "link",
+        "label": "Detail",
+        "href": "#fallback-detail",
+        "line": 3
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#fallback-insights",
+        "line": 4
+      },
+      {
+        "type": "link",
+        "label": "Settings",
+        "href": "#fallback-settings",
+        "line": 5
+      },
+      {
+        "type": "link",
+        "label": "Error State",
+        "href": "#fallback-error-state",
+        "line": 6
+      },
+      {
+        "type": "link",
+        "label": "Empty State",
+        "href": "#fallback-empty-state",
+        "line": 7
+      },
+      {
+        "type": "button",
+        "label": "Restart",
+        "line": 1
+      },
+      {
+        "type": "button",
+        "label": "Open Settings",
+        "line": 1
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "Dashboard",
+        "href": "#fallback-dashboard",
+        "line": 1
+      },
+      {
+        "type": "link",
+        "label": "Create Edit",
+        "href": "#fallback-create-edit",
+        "line": 2
+      },
+      {
+        "type": "link",
+        "label": "Detail",
+        "href": "#fallback-detail",
+        "line": 3
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#fallback-insights",
+        "line": 4
+      },
+      {
+        "type": "link",
+        "label": "Settings",
+        "href": "#fallback-settings",
+        "line": 5
+      },
+      {
+        "type": "link",
+        "label": "Error State",
+        "href": "#fallback-error-state",
+        "line": 6
+      },
+      {
+        "type": "link",
+        "label": "Empty State",
+        "href": "#fallback-empty-state",
+        "line": 7
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "Restart",
+        "line": 1
+      },
+      {
+        "type": "button",
+        "label": "Open Settings",
+        "line": 1
+      }
+    ],
+    "inputs": [],
+    "hardcodedData": [],
+    "totalInteractive": 9,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "fallback-settings",
+    "screenTitle": "Settings",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "Dashboard",
+        "href": "#fallback-dashboard",
+        "line": 1
+      },
+      {
+        "type": "link",
+        "label": "Create Edit",
+        "href": "#fallback-create-edit",
+        "line": 2
+      },
+      {
+        "type": "link",
+        "label": "Detail",
+        "href": "#fallback-detail",
+        "line": 3
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#fallback-insights",
+        "line": 4
+      },
+      {
+        "type": "link",
+        "label": "Settings",
+        "href": "#fallback-settings",
+        "line": 5
+      },
+      {
+        "type": "link",
+        "label": "Error State",
+        "href": "#fallback-error-state",
+        "line": 6
+      },
+      {
+        "type": "link",
+        "label": "Empty State",
+        "href": "#fallback-empty-state",
+        "line": 7
+      },
+      {
+        "type": "button",
+        "label": "Restart",
+        "line": 1
+      },
+      {
+        "type": "button",
+        "label": "Open Settings",
+        "line": 1
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "Dashboard",
+        "href": "#fallback-dashboard",
+        "line": 1
+      },
+      {
+        "type": "link",
+        "label": "Create Edit",
+        "href": "#fallback-create-edit",
+        "line": 2
+      },
+      {
+        "type": "link",
+        "label": "Detail",
+        "href": "#fallback-detail",
+        "line": 3
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#fallback-insights",
+        "line": 4
+      },
+      {
+        "type": "link",
+        "label": "Settings",
+        "href": "#fallback-settings",
+        "line": 5
+      },
+      {
+        "type": "link",
+        "label": "Error State",
+        "href": "#fallback-error-state",
+        "line": 6
+      },
+      {
+        "type": "link",
+        "label": "Empty State",
+        "href": "#fallback-empty-state",
+        "line": 7
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "Restart",
+        "line": 1
+      },
+      {
+        "type": "button",
+        "label": "Open Settings",
+        "line": 1
+      }
+    ],
+    "inputs": [
+      {
+        "type": "input",
+        "label": "Start Level",
+        "inputType": "select",
+        "placeholder": "Level",
+        "line": 1
+      }
+    ],
+    "hardcodedData": [],
+    "totalInteractive": 9,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "fallback-error-state",
+    "screenTitle": "Error State",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "Dashboard",
+        "href": "#fallback-dashboard",
+        "line": 1
+      },
+      {
+        "type": "link",
+        "label": "Create Edit",
+        "href": "#fallback-create-edit",
+        "line": 2
+      },
+      {
+        "type": "link",
+        "label": "Detail",
+        "href": "#fallback-detail",
+        "line": 3
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#fallback-insights",
+        "line": 4
+      },
+      {
+        "type": "link",
+        "label": "Settings",
+        "href": "#fallback-settings",
+        "line": 5
+      },
+      {
+        "type": "link",
+        "label": "Error State",
+        "href": "#fallback-error-state",
+        "line": 6
+      },
+      {
+        "type": "link",
+        "label": "Empty State",
+        "href": "#fallback-empty-state",
+        "line": 7
+      },
+      {
+        "type": "button",
+        "label": "Restart",
+        "line": 1
+      },
+      {
+        "type": "button",
+        "label": "Open Settings",
+        "line": 1
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "Dashboard",
+        "href": "#fallback-dashboard",
+        "line": 1
+      },
+      {
+        "type": "link",
+        "label": "Create Edit",
+        "href": "#fallback-create-edit",
+        "line": 2
+      },
+      {
+        "type": "link",
+        "label": "Detail",
+        "href": "#fallback-detail",
+        "line": 3
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#fallback-insights",
+        "line": 4
+      },
+      {
+        "type": "link",
+        "label": "Settings",
+        "href": "#fallback-settings",
+        "line": 5
+      },
+      {
+        "type": "link",
+        "label": "Error State",
+        "href": "#fallback-error-state",
+        "line": 6
+      },
+      {
+        "type": "link",
+        "label": "Empty State",
+        "href": "#fallback-empty-state",
+        "line": 7
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "Restart",
+        "line": 1
+      },
+      {
+        "type": "button",
+        "label": "Open Settings",
+        "line": 1
+      }
+    ],
+    "inputs": [],
+    "hardcodedData": [],
+    "totalInteractive": 9,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "fallback-empty-state",
+    "screenTitle": "Empty State",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "Dashboard",
+        "href": "#fallback-dashboard",
+        "line": 1
+      },
+      {
+        "type": "link",
+        "label": "Create Edit",
+        "href": "#fallback-create-edit",
+        "line": 2
+      },
+      {
+        "type": "link",
+        "label": "Detail",
+        "href": "#fallback-detail",
+        "line": 3
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#fallback-insights",
+        "line": 4
+      },
+      {
+        "type": "link",
+        "label": "Settings",
+        "href": "#fallback-settings",
+        "line": 5
+      },
+      {
+        "type": "link",
+        "label": "Error State",
+        "href": "#fallback-error-state",
+        "line": 6
+      },
+      {
+        "type": "link",
+        "label": "Empty State",
+        "href": "#fallback-empty-state",
+        "line": 7
+      },
+      {
+        "type": "button",
+        "label": "Restart",
+        "line": 1
+      },
+      {
+        "type": "button",
+        "label": "Open Settings",
+        "line": 1
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "Dashboard",
+        "href": "#fallback-dashboard",
+        "line": 1
+      },
+      {
+        "type": "link",
+        "label": "Create Edit",
+        "href": "#fallback-create-edit",
+        "line": 2
+      },
+      {
+        "type": "link",
+        "label": "Detail",
+        "href": "#fallback-detail",
+        "line": 3
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#fallback-insights",
+        "line": 4
+      },
+      {
+        "type": "link",
+        "label": "Settings",
+        "href": "#fallback-settings",
+        "line": 5
+      },
+      {
+        "type": "link",
+        "label": "Error State",
+        "href": "#fallback-error-state",
+        "line": 6
+      },
+      {
+        "type": "link",
+        "label": "Empty State",
+        "href": "#fallback-empty-state",
+        "line": 7
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "Restart",
+        "line": 1
+      },
+      {
+        "type": "button",
+        "label": "Open Settings",
+        "line": 1
+      }
+    ],
+    "inputs": [],
+    "hardcodedData": [],
+    "totalInteractive": 9,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  }
+]

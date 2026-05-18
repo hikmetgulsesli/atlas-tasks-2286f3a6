@@ -1,0 +1,1894 @@
+{
+  "generatedAt": "2026-05-18T07:30:28.212Z",
+  "screenCount": 7,
+  "screens": {
+    "fallback-create-edit": {
+      "screenId": "fallback-create-edit",
+      "materialSymbolsRequired": false,
+      "sections": [
+        {
+          "tag": "header",
+          "layout": "block",
+          "classes": [
+            "meta"
+          ],
+          "childCount": 2
+        },
+        {
+          "tag": "main",
+          "layout": "block",
+          "classes": [
+            "command-panel"
+          ],
+          "childCount": 5
+        }
+      ],
+      "buttons": [
+        {
+          "kind": "button",
+          "label": "Start Game",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Resume",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Open Settings",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "inputs": [],
+      "navLinks": [
+        {
+          "kind": "link",
+          "label": "Dashboard",
+          "href": "#fallback-dashboard",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-dashboard"
+        },
+        {
+          "kind": "link",
+          "label": "Create Edit",
+          "href": "#fallback-create-edit",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-create-edit"
+        },
+        {
+          "kind": "link",
+          "label": "Detail",
+          "href": "#fallback-detail",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-detail"
+        },
+        {
+          "kind": "link",
+          "label": "Insights",
+          "href": "#fallback-insights",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-insights"
+        },
+        {
+          "kind": "link",
+          "label": "Settings",
+          "href": "#fallback-settings",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-settings"
+        },
+        {
+          "kind": "link",
+          "label": "Error State",
+          "href": "#fallback-error-state",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-error-state"
+        },
+        {
+          "kind": "link",
+          "label": "Empty State",
+          "href": "#fallback-empty-state",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-empty-state"
+        }
+      ],
+      "cards": [],
+      "icons": [],
+      "images": [],
+      "cssVars": {
+        "--color-background": "#0b1020",
+        "--color-surface": "#151b2d",
+        "--color-panel": "#20283f",
+        "--color-primary": "#20e3b2",
+        "--color-accent": "#ffb86b",
+        "--color-danger": "#ff5c7a",
+        "--color-text": "#eef4ff",
+        "--color-muted": "#9ba8c7",
+        "--font-heading": "\"Hanken Grotesk\", \"Segoe UI\", sans-serif",
+        "--font-body": "\"Hanken Grotesk\", \"Segoe UI\", sans-serif",
+        "--radius-card": "8px",
+        "--spacing-unit": "8px"
+      },
+      "colorPalette": {
+        "background": "#0b1020",
+        "surface": "#151b2d",
+        "panel": "#20283f",
+        "primary": "#20e3b2",
+        "accent": "#ffb86b",
+        "danger": "#ff5c7a",
+        "text": "#eef4ff",
+        "muted": "#9ba8c7"
+      },
+      "fonts": [],
+      "layoutHints": {},
+      "behaviorContract": [
+        {
+          "kind": "link",
+          "label": "Dashboard",
+          "icon": null,
+          "route": "#fallback-dashboard",
+          "expectedBehavior": "navigate:#fallback-dashboard"
+        },
+        {
+          "kind": "link",
+          "label": "Create Edit",
+          "icon": null,
+          "route": "#fallback-create-edit",
+          "expectedBehavior": "navigate:#fallback-create-edit"
+        },
+        {
+          "kind": "link",
+          "label": "Detail",
+          "icon": null,
+          "route": "#fallback-detail",
+          "expectedBehavior": "navigate:#fallback-detail"
+        },
+        {
+          "kind": "link",
+          "label": "Insights",
+          "icon": null,
+          "route": "#fallback-insights",
+          "expectedBehavior": "navigate:#fallback-insights"
+        },
+        {
+          "kind": "link",
+          "label": "Settings",
+          "icon": null,
+          "route": "#fallback-settings",
+          "expectedBehavior": "navigate:#fallback-settings"
+        },
+        {
+          "kind": "link",
+          "label": "Error State",
+          "icon": null,
+          "route": "#fallback-error-state",
+          "expectedBehavior": "navigate:#fallback-error-state"
+        },
+        {
+          "kind": "link",
+          "label": "Empty State",
+          "icon": null,
+          "route": "#fallback-empty-state",
+          "expectedBehavior": "navigate:#fallback-empty-state"
+        },
+        {
+          "kind": "button",
+          "label": "Start Game",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Resume",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Open Settings",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "tabBar": [
+        {
+          "kind": "link",
+          "label": "Dashboard",
+          "icon": null,
+          "route": "#fallback-dashboard",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Create Edit",
+          "icon": null,
+          "route": "#fallback-create-edit",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Detail",
+          "icon": null,
+          "route": "#fallback-detail",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Insights",
+          "icon": null,
+          "route": "#fallback-insights",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Settings",
+          "icon": null,
+          "route": "#fallback-settings",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Error State",
+          "icon": null,
+          "route": "#fallback-error-state",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Empty State",
+          "icon": null,
+          "route": "#fallback-empty-state",
+          "active": false
+        }
+      ],
+      "title": "Create Edit"
+    },
+    "fallback-dashboard": {
+      "screenId": "fallback-dashboard",
+      "materialSymbolsRequired": false,
+      "sections": [
+        {
+          "tag": "header",
+          "layout": "block",
+          "classes": [
+            "meta"
+          ],
+          "childCount": 2
+        },
+        {
+          "tag": "main",
+          "layout": "block",
+          "classes": [
+            "game-layout"
+          ],
+          "childCount": 99
+        }
+      ],
+      "buttons": [
+        {
+          "kind": "button",
+          "label": "Pause",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Restart",
+          "classes": [],
+          "icon": null,
+          "action": "reset",
+          "expectedBehavior": "reset visible value/state, with confirmation if destructive"
+        }
+      ],
+      "inputs": [],
+      "navLinks": [
+        {
+          "kind": "link",
+          "label": "Dashboard",
+          "href": "#fallback-dashboard",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-dashboard"
+        },
+        {
+          "kind": "link",
+          "label": "Create Edit",
+          "href": "#fallback-create-edit",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-create-edit"
+        },
+        {
+          "kind": "link",
+          "label": "Detail",
+          "href": "#fallback-detail",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-detail"
+        },
+        {
+          "kind": "link",
+          "label": "Insights",
+          "href": "#fallback-insights",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-insights"
+        },
+        {
+          "kind": "link",
+          "label": "Settings",
+          "href": "#fallback-settings",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-settings"
+        },
+        {
+          "kind": "link",
+          "label": "Error State",
+          "href": "#fallback-error-state",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-error-state"
+        },
+        {
+          "kind": "link",
+          "label": "Empty State",
+          "href": "#fallback-empty-state",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-empty-state"
+        }
+      ],
+      "cards": [],
+      "icons": [],
+      "images": [],
+      "cssVars": {
+        "--color-background": "#0b1020",
+        "--color-surface": "#151b2d",
+        "--color-panel": "#20283f",
+        "--color-primary": "#20e3b2",
+        "--color-accent": "#ffb86b",
+        "--color-danger": "#ff5c7a",
+        "--color-text": "#eef4ff",
+        "--color-muted": "#9ba8c7",
+        "--font-heading": "\"Hanken Grotesk\", \"Segoe UI\", sans-serif",
+        "--font-body": "\"Hanken Grotesk\", \"Segoe UI\", sans-serif",
+        "--radius-card": "8px",
+        "--spacing-unit": "8px"
+      },
+      "colorPalette": {
+        "background": "#0b1020",
+        "surface": "#151b2d",
+        "panel": "#20283f",
+        "primary": "#20e3b2",
+        "accent": "#ffb86b",
+        "danger": "#ff5c7a",
+        "text": "#eef4ff",
+        "muted": "#9ba8c7"
+      },
+      "fonts": [],
+      "layoutHints": {},
+      "behaviorContract": [
+        {
+          "kind": "link",
+          "label": "Dashboard",
+          "icon": null,
+          "route": "#fallback-dashboard",
+          "expectedBehavior": "navigate:#fallback-dashboard"
+        },
+        {
+          "kind": "link",
+          "label": "Create Edit",
+          "icon": null,
+          "route": "#fallback-create-edit",
+          "expectedBehavior": "navigate:#fallback-create-edit"
+        },
+        {
+          "kind": "link",
+          "label": "Detail",
+          "icon": null,
+          "route": "#fallback-detail",
+          "expectedBehavior": "navigate:#fallback-detail"
+        },
+        {
+          "kind": "link",
+          "label": "Insights",
+          "icon": null,
+          "route": "#fallback-insights",
+          "expectedBehavior": "navigate:#fallback-insights"
+        },
+        {
+          "kind": "link",
+          "label": "Settings",
+          "icon": null,
+          "route": "#fallback-settings",
+          "expectedBehavior": "navigate:#fallback-settings"
+        },
+        {
+          "kind": "link",
+          "label": "Error State",
+          "icon": null,
+          "route": "#fallback-error-state",
+          "expectedBehavior": "navigate:#fallback-error-state"
+        },
+        {
+          "kind": "link",
+          "label": "Empty State",
+          "icon": null,
+          "route": "#fallback-empty-state",
+          "expectedBehavior": "navigate:#fallback-empty-state"
+        },
+        {
+          "kind": "button",
+          "label": "Pause",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Restart",
+          "icon": null,
+          "action": "reset",
+          "expectedBehavior": "reset visible value/state, with confirmation if destructive"
+        }
+      ],
+      "tabBar": [
+        {
+          "kind": "link",
+          "label": "Dashboard",
+          "icon": null,
+          "route": "#fallback-dashboard",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Create Edit",
+          "icon": null,
+          "route": "#fallback-create-edit",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Detail",
+          "icon": null,
+          "route": "#fallback-detail",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Insights",
+          "icon": null,
+          "route": "#fallback-insights",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Settings",
+          "icon": null,
+          "route": "#fallback-settings",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Error State",
+          "icon": null,
+          "route": "#fallback-error-state",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Empty State",
+          "icon": null,
+          "route": "#fallback-empty-state",
+          "active": false
+        }
+      ],
+      "title": "Dashboard"
+    },
+    "fallback-detail": {
+      "screenId": "fallback-detail",
+      "materialSymbolsRequired": false,
+      "sections": [
+        {
+          "tag": "header",
+          "layout": "block",
+          "classes": [
+            "meta"
+          ],
+          "childCount": 2
+        },
+        {
+          "tag": "main",
+          "layout": "block",
+          "classes": [
+            "command-panel"
+          ],
+          "childCount": 5
+        }
+      ],
+      "buttons": [
+        {
+          "kind": "button",
+          "label": "Start Game",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Resume",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Open Settings",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "inputs": [],
+      "navLinks": [
+        {
+          "kind": "link",
+          "label": "Dashboard",
+          "href": "#fallback-dashboard",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-dashboard"
+        },
+        {
+          "kind": "link",
+          "label": "Create Edit",
+          "href": "#fallback-create-edit",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-create-edit"
+        },
+        {
+          "kind": "link",
+          "label": "Detail",
+          "href": "#fallback-detail",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-detail"
+        },
+        {
+          "kind": "link",
+          "label": "Insights",
+          "href": "#fallback-insights",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-insights"
+        },
+        {
+          "kind": "link",
+          "label": "Settings",
+          "href": "#fallback-settings",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-settings"
+        },
+        {
+          "kind": "link",
+          "label": "Error State",
+          "href": "#fallback-error-state",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-error-state"
+        },
+        {
+          "kind": "link",
+          "label": "Empty State",
+          "href": "#fallback-empty-state",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-empty-state"
+        }
+      ],
+      "cards": [],
+      "icons": [],
+      "images": [],
+      "cssVars": {
+        "--color-background": "#0b1020",
+        "--color-surface": "#151b2d",
+        "--color-panel": "#20283f",
+        "--color-primary": "#20e3b2",
+        "--color-accent": "#ffb86b",
+        "--color-danger": "#ff5c7a",
+        "--color-text": "#eef4ff",
+        "--color-muted": "#9ba8c7",
+        "--font-heading": "\"Hanken Grotesk\", \"Segoe UI\", sans-serif",
+        "--font-body": "\"Hanken Grotesk\", \"Segoe UI\", sans-serif",
+        "--radius-card": "8px",
+        "--spacing-unit": "8px"
+      },
+      "colorPalette": {
+        "background": "#0b1020",
+        "surface": "#151b2d",
+        "panel": "#20283f",
+        "primary": "#20e3b2",
+        "accent": "#ffb86b",
+        "danger": "#ff5c7a",
+        "text": "#eef4ff",
+        "muted": "#9ba8c7"
+      },
+      "fonts": [],
+      "layoutHints": {},
+      "behaviorContract": [
+        {
+          "kind": "link",
+          "label": "Dashboard",
+          "icon": null,
+          "route": "#fallback-dashboard",
+          "expectedBehavior": "navigate:#fallback-dashboard"
+        },
+        {
+          "kind": "link",
+          "label": "Create Edit",
+          "icon": null,
+          "route": "#fallback-create-edit",
+          "expectedBehavior": "navigate:#fallback-create-edit"
+        },
+        {
+          "kind": "link",
+          "label": "Detail",
+          "icon": null,
+          "route": "#fallback-detail",
+          "expectedBehavior": "navigate:#fallback-detail"
+        },
+        {
+          "kind": "link",
+          "label": "Insights",
+          "icon": null,
+          "route": "#fallback-insights",
+          "expectedBehavior": "navigate:#fallback-insights"
+        },
+        {
+          "kind": "link",
+          "label": "Settings",
+          "icon": null,
+          "route": "#fallback-settings",
+          "expectedBehavior": "navigate:#fallback-settings"
+        },
+        {
+          "kind": "link",
+          "label": "Error State",
+          "icon": null,
+          "route": "#fallback-error-state",
+          "expectedBehavior": "navigate:#fallback-error-state"
+        },
+        {
+          "kind": "link",
+          "label": "Empty State",
+          "icon": null,
+          "route": "#fallback-empty-state",
+          "expectedBehavior": "navigate:#fallback-empty-state"
+        },
+        {
+          "kind": "button",
+          "label": "Start Game",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Resume",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Open Settings",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "tabBar": [
+        {
+          "kind": "link",
+          "label": "Dashboard",
+          "icon": null,
+          "route": "#fallback-dashboard",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Create Edit",
+          "icon": null,
+          "route": "#fallback-create-edit",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Detail",
+          "icon": null,
+          "route": "#fallback-detail",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Insights",
+          "icon": null,
+          "route": "#fallback-insights",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Settings",
+          "icon": null,
+          "route": "#fallback-settings",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Error State",
+          "icon": null,
+          "route": "#fallback-error-state",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Empty State",
+          "icon": null,
+          "route": "#fallback-empty-state",
+          "active": false
+        }
+      ],
+      "title": "Detail"
+    },
+    "fallback-empty-state": {
+      "screenId": "fallback-empty-state",
+      "materialSymbolsRequired": false,
+      "sections": [
+        {
+          "tag": "header",
+          "layout": "block",
+          "classes": [
+            "meta"
+          ],
+          "childCount": 2
+        },
+        {
+          "tag": "main",
+          "layout": "block",
+          "classes": [
+            "command-panel"
+          ],
+          "childCount": 5
+        }
+      ],
+      "buttons": [
+        {
+          "kind": "button",
+          "label": "Start Game",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Resume",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Open Settings",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "inputs": [],
+      "navLinks": [
+        {
+          "kind": "link",
+          "label": "Dashboard",
+          "href": "#fallback-dashboard",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-dashboard"
+        },
+        {
+          "kind": "link",
+          "label": "Create Edit",
+          "href": "#fallback-create-edit",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-create-edit"
+        },
+        {
+          "kind": "link",
+          "label": "Detail",
+          "href": "#fallback-detail",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-detail"
+        },
+        {
+          "kind": "link",
+          "label": "Insights",
+          "href": "#fallback-insights",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-insights"
+        },
+        {
+          "kind": "link",
+          "label": "Settings",
+          "href": "#fallback-settings",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-settings"
+        },
+        {
+          "kind": "link",
+          "label": "Error State",
+          "href": "#fallback-error-state",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-error-state"
+        },
+        {
+          "kind": "link",
+          "label": "Empty State",
+          "href": "#fallback-empty-state",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-empty-state"
+        }
+      ],
+      "cards": [],
+      "icons": [],
+      "images": [],
+      "cssVars": {
+        "--color-background": "#0b1020",
+        "--color-surface": "#151b2d",
+        "--color-panel": "#20283f",
+        "--color-primary": "#20e3b2",
+        "--color-accent": "#ffb86b",
+        "--color-danger": "#ff5c7a",
+        "--color-text": "#eef4ff",
+        "--color-muted": "#9ba8c7",
+        "--font-heading": "\"Hanken Grotesk\", \"Segoe UI\", sans-serif",
+        "--font-body": "\"Hanken Grotesk\", \"Segoe UI\", sans-serif",
+        "--radius-card": "8px",
+        "--spacing-unit": "8px"
+      },
+      "colorPalette": {
+        "background": "#0b1020",
+        "surface": "#151b2d",
+        "panel": "#20283f",
+        "primary": "#20e3b2",
+        "accent": "#ffb86b",
+        "danger": "#ff5c7a",
+        "text": "#eef4ff",
+        "muted": "#9ba8c7"
+      },
+      "fonts": [],
+      "layoutHints": {},
+      "behaviorContract": [
+        {
+          "kind": "link",
+          "label": "Dashboard",
+          "icon": null,
+          "route": "#fallback-dashboard",
+          "expectedBehavior": "navigate:#fallback-dashboard"
+        },
+        {
+          "kind": "link",
+          "label": "Create Edit",
+          "icon": null,
+          "route": "#fallback-create-edit",
+          "expectedBehavior": "navigate:#fallback-create-edit"
+        },
+        {
+          "kind": "link",
+          "label": "Detail",
+          "icon": null,
+          "route": "#fallback-detail",
+          "expectedBehavior": "navigate:#fallback-detail"
+        },
+        {
+          "kind": "link",
+          "label": "Insights",
+          "icon": null,
+          "route": "#fallback-insights",
+          "expectedBehavior": "navigate:#fallback-insights"
+        },
+        {
+          "kind": "link",
+          "label": "Settings",
+          "icon": null,
+          "route": "#fallback-settings",
+          "expectedBehavior": "navigate:#fallback-settings"
+        },
+        {
+          "kind": "link",
+          "label": "Error State",
+          "icon": null,
+          "route": "#fallback-error-state",
+          "expectedBehavior": "navigate:#fallback-error-state"
+        },
+        {
+          "kind": "link",
+          "label": "Empty State",
+          "icon": null,
+          "route": "#fallback-empty-state",
+          "expectedBehavior": "navigate:#fallback-empty-state"
+        },
+        {
+          "kind": "button",
+          "label": "Start Game",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Resume",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Open Settings",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "tabBar": [
+        {
+          "kind": "link",
+          "label": "Dashboard",
+          "icon": null,
+          "route": "#fallback-dashboard",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Create Edit",
+          "icon": null,
+          "route": "#fallback-create-edit",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Detail",
+          "icon": null,
+          "route": "#fallback-detail",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Insights",
+          "icon": null,
+          "route": "#fallback-insights",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Settings",
+          "icon": null,
+          "route": "#fallback-settings",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Error State",
+          "icon": null,
+          "route": "#fallback-error-state",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Empty State",
+          "icon": null,
+          "route": "#fallback-empty-state",
+          "active": false
+        }
+      ],
+      "title": "Empty State"
+    },
+    "fallback-error-state": {
+      "screenId": "fallback-error-state",
+      "materialSymbolsRequired": false,
+      "sections": [
+        {
+          "tag": "header",
+          "layout": "block",
+          "classes": [
+            "meta"
+          ],
+          "childCount": 2
+        },
+        {
+          "tag": "main",
+          "layout": "block",
+          "classes": [
+            "command-panel"
+          ],
+          "childCount": 5
+        }
+      ],
+      "buttons": [
+        {
+          "kind": "button",
+          "label": "Start Game",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Resume",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Open Settings",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "inputs": [],
+      "navLinks": [
+        {
+          "kind": "link",
+          "label": "Dashboard",
+          "href": "#fallback-dashboard",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-dashboard"
+        },
+        {
+          "kind": "link",
+          "label": "Create Edit",
+          "href": "#fallback-create-edit",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-create-edit"
+        },
+        {
+          "kind": "link",
+          "label": "Detail",
+          "href": "#fallback-detail",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-detail"
+        },
+        {
+          "kind": "link",
+          "label": "Insights",
+          "href": "#fallback-insights",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-insights"
+        },
+        {
+          "kind": "link",
+          "label": "Settings",
+          "href": "#fallback-settings",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-settings"
+        },
+        {
+          "kind": "link",
+          "label": "Error State",
+          "href": "#fallback-error-state",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-error-state"
+        },
+        {
+          "kind": "link",
+          "label": "Empty State",
+          "href": "#fallback-empty-state",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-empty-state"
+        }
+      ],
+      "cards": [],
+      "icons": [],
+      "images": [],
+      "cssVars": {
+        "--color-background": "#0b1020",
+        "--color-surface": "#151b2d",
+        "--color-panel": "#20283f",
+        "--color-primary": "#20e3b2",
+        "--color-accent": "#ffb86b",
+        "--color-danger": "#ff5c7a",
+        "--color-text": "#eef4ff",
+        "--color-muted": "#9ba8c7",
+        "--font-heading": "\"Hanken Grotesk\", \"Segoe UI\", sans-serif",
+        "--font-body": "\"Hanken Grotesk\", \"Segoe UI\", sans-serif",
+        "--radius-card": "8px",
+        "--spacing-unit": "8px"
+      },
+      "colorPalette": {
+        "background": "#0b1020",
+        "surface": "#151b2d",
+        "panel": "#20283f",
+        "primary": "#20e3b2",
+        "accent": "#ffb86b",
+        "danger": "#ff5c7a",
+        "text": "#eef4ff",
+        "muted": "#9ba8c7"
+      },
+      "fonts": [],
+      "layoutHints": {},
+      "behaviorContract": [
+        {
+          "kind": "link",
+          "label": "Dashboard",
+          "icon": null,
+          "route": "#fallback-dashboard",
+          "expectedBehavior": "navigate:#fallback-dashboard"
+        },
+        {
+          "kind": "link",
+          "label": "Create Edit",
+          "icon": null,
+          "route": "#fallback-create-edit",
+          "expectedBehavior": "navigate:#fallback-create-edit"
+        },
+        {
+          "kind": "link",
+          "label": "Detail",
+          "icon": null,
+          "route": "#fallback-detail",
+          "expectedBehavior": "navigate:#fallback-detail"
+        },
+        {
+          "kind": "link",
+          "label": "Insights",
+          "icon": null,
+          "route": "#fallback-insights",
+          "expectedBehavior": "navigate:#fallback-insights"
+        },
+        {
+          "kind": "link",
+          "label": "Settings",
+          "icon": null,
+          "route": "#fallback-settings",
+          "expectedBehavior": "navigate:#fallback-settings"
+        },
+        {
+          "kind": "link",
+          "label": "Error State",
+          "icon": null,
+          "route": "#fallback-error-state",
+          "expectedBehavior": "navigate:#fallback-error-state"
+        },
+        {
+          "kind": "link",
+          "label": "Empty State",
+          "icon": null,
+          "route": "#fallback-empty-state",
+          "expectedBehavior": "navigate:#fallback-empty-state"
+        },
+        {
+          "kind": "button",
+          "label": "Start Game",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Resume",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Open Settings",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "tabBar": [
+        {
+          "kind": "link",
+          "label": "Dashboard",
+          "icon": null,
+          "route": "#fallback-dashboard",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Create Edit",
+          "icon": null,
+          "route": "#fallback-create-edit",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Detail",
+          "icon": null,
+          "route": "#fallback-detail",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Insights",
+          "icon": null,
+          "route": "#fallback-insights",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Settings",
+          "icon": null,
+          "route": "#fallback-settings",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Error State",
+          "icon": null,
+          "route": "#fallback-error-state",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Empty State",
+          "icon": null,
+          "route": "#fallback-empty-state",
+          "active": false
+        }
+      ],
+      "title": "Error State"
+    },
+    "fallback-insights": {
+      "screenId": "fallback-insights",
+      "materialSymbolsRequired": false,
+      "sections": [
+        {
+          "tag": "header",
+          "layout": "block",
+          "classes": [
+            "meta"
+          ],
+          "childCount": 2
+        },
+        {
+          "tag": "main",
+          "layout": "block",
+          "classes": [
+            "command-panel"
+          ],
+          "childCount": 5
+        }
+      ],
+      "buttons": [
+        {
+          "kind": "button",
+          "label": "Start Game",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Resume",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Open Settings",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "inputs": [],
+      "navLinks": [
+        {
+          "kind": "link",
+          "label": "Dashboard",
+          "href": "#fallback-dashboard",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-dashboard"
+        },
+        {
+          "kind": "link",
+          "label": "Create Edit",
+          "href": "#fallback-create-edit",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-create-edit"
+        },
+        {
+          "kind": "link",
+          "label": "Detail",
+          "href": "#fallback-detail",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-detail"
+        },
+        {
+          "kind": "link",
+          "label": "Insights",
+          "href": "#fallback-insights",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-insights"
+        },
+        {
+          "kind": "link",
+          "label": "Settings",
+          "href": "#fallback-settings",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-settings"
+        },
+        {
+          "kind": "link",
+          "label": "Error State",
+          "href": "#fallback-error-state",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-error-state"
+        },
+        {
+          "kind": "link",
+          "label": "Empty State",
+          "href": "#fallback-empty-state",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-empty-state"
+        }
+      ],
+      "cards": [],
+      "icons": [],
+      "images": [],
+      "cssVars": {
+        "--color-background": "#0b1020",
+        "--color-surface": "#151b2d",
+        "--color-panel": "#20283f",
+        "--color-primary": "#20e3b2",
+        "--color-accent": "#ffb86b",
+        "--color-danger": "#ff5c7a",
+        "--color-text": "#eef4ff",
+        "--color-muted": "#9ba8c7",
+        "--font-heading": "\"Hanken Grotesk\", \"Segoe UI\", sans-serif",
+        "--font-body": "\"Hanken Grotesk\", \"Segoe UI\", sans-serif",
+        "--radius-card": "8px",
+        "--spacing-unit": "8px"
+      },
+      "colorPalette": {
+        "background": "#0b1020",
+        "surface": "#151b2d",
+        "panel": "#20283f",
+        "primary": "#20e3b2",
+        "accent": "#ffb86b",
+        "danger": "#ff5c7a",
+        "text": "#eef4ff",
+        "muted": "#9ba8c7"
+      },
+      "fonts": [],
+      "layoutHints": {},
+      "behaviorContract": [
+        {
+          "kind": "link",
+          "label": "Dashboard",
+          "icon": null,
+          "route": "#fallback-dashboard",
+          "expectedBehavior": "navigate:#fallback-dashboard"
+        },
+        {
+          "kind": "link",
+          "label": "Create Edit",
+          "icon": null,
+          "route": "#fallback-create-edit",
+          "expectedBehavior": "navigate:#fallback-create-edit"
+        },
+        {
+          "kind": "link",
+          "label": "Detail",
+          "icon": null,
+          "route": "#fallback-detail",
+          "expectedBehavior": "navigate:#fallback-detail"
+        },
+        {
+          "kind": "link",
+          "label": "Insights",
+          "icon": null,
+          "route": "#fallback-insights",
+          "expectedBehavior": "navigate:#fallback-insights"
+        },
+        {
+          "kind": "link",
+          "label": "Settings",
+          "icon": null,
+          "route": "#fallback-settings",
+          "expectedBehavior": "navigate:#fallback-settings"
+        },
+        {
+          "kind": "link",
+          "label": "Error State",
+          "icon": null,
+          "route": "#fallback-error-state",
+          "expectedBehavior": "navigate:#fallback-error-state"
+        },
+        {
+          "kind": "link",
+          "label": "Empty State",
+          "icon": null,
+          "route": "#fallback-empty-state",
+          "expectedBehavior": "navigate:#fallback-empty-state"
+        },
+        {
+          "kind": "button",
+          "label": "Start Game",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Resume",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Open Settings",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "tabBar": [
+        {
+          "kind": "link",
+          "label": "Dashboard",
+          "icon": null,
+          "route": "#fallback-dashboard",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Create Edit",
+          "icon": null,
+          "route": "#fallback-create-edit",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Detail",
+          "icon": null,
+          "route": "#fallback-detail",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Insights",
+          "icon": null,
+          "route": "#fallback-insights",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Settings",
+          "icon": null,
+          "route": "#fallback-settings",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Error State",
+          "icon": null,
+          "route": "#fallback-error-state",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Empty State",
+          "icon": null,
+          "route": "#fallback-empty-state",
+          "active": false
+        }
+      ],
+      "title": "Insights"
+    },
+    "fallback-settings": {
+      "screenId": "fallback-settings",
+      "materialSymbolsRequired": false,
+      "sections": [
+        {
+          "tag": "header",
+          "layout": "block",
+          "classes": [
+            "meta"
+          ],
+          "childCount": 2
+        },
+        {
+          "tag": "main",
+          "layout": "block",
+          "classes": [
+            "settings-panel"
+          ],
+          "childCount": 0
+        }
+      ],
+      "buttons": [
+        {
+          "kind": "button",
+          "label": "Save Settings",
+          "classes": [],
+          "icon": null,
+          "action": "form-submit",
+          "expectedBehavior": "validate inputs and submit/apply changes"
+        },
+        {
+          "kind": "button",
+          "label": "Reset Defaults",
+          "classes": [],
+          "icon": null,
+          "action": "reset",
+          "expectedBehavior": "reset visible value/state, with confirmation if destructive"
+        }
+      ],
+      "inputs": [
+        {
+          "kind": "input",
+          "type": "select",
+          "label": "level",
+          "placeholder": "",
+          "name": "level",
+          "classes": [],
+          "expectedBehavior": "controlled value with onChange; validation if required by PRD"
+        },
+        {
+          "kind": "input",
+          "type": "select",
+          "label": "assist",
+          "placeholder": "",
+          "name": "assist",
+          "classes": [],
+          "expectedBehavior": "controlled value with onChange; validation if required by PRD"
+        },
+        {
+          "kind": "input",
+          "type": "input",
+          "label": "Arrow keys, WASD, or touch",
+          "placeholder": "Arrow keys, WASD, or touch",
+          "name": "controls",
+          "classes": [],
+          "expectedBehavior": "controlled value with onChange; validation if required by PRD"
+        }
+      ],
+      "navLinks": [
+        {
+          "kind": "link",
+          "label": "Dashboard",
+          "href": "#fallback-dashboard",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-dashboard"
+        },
+        {
+          "kind": "link",
+          "label": "Create Edit",
+          "href": "#fallback-create-edit",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-create-edit"
+        },
+        {
+          "kind": "link",
+          "label": "Detail",
+          "href": "#fallback-detail",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-detail"
+        },
+        {
+          "kind": "link",
+          "label": "Insights",
+          "href": "#fallback-insights",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-insights"
+        },
+        {
+          "kind": "link",
+          "label": "Settings",
+          "href": "#fallback-settings",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-settings"
+        },
+        {
+          "kind": "link",
+          "label": "Error State",
+          "href": "#fallback-error-state",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-error-state"
+        },
+        {
+          "kind": "link",
+          "label": "Empty State",
+          "href": "#fallback-empty-state",
+          "classes": [],
+          "icon": null,
+          "action": "navigate",
+          "expectedBehavior": "navigate:#fallback-empty-state"
+        }
+      ],
+      "cards": [],
+      "icons": [],
+      "images": [],
+      "cssVars": {
+        "--color-background": "#0b1020",
+        "--color-surface": "#151b2d",
+        "--color-panel": "#20283f",
+        "--color-primary": "#20e3b2",
+        "--color-accent": "#ffb86b",
+        "--color-danger": "#ff5c7a",
+        "--color-text": "#eef4ff",
+        "--color-muted": "#9ba8c7",
+        "--font-heading": "\"Hanken Grotesk\", \"Segoe UI\", sans-serif",
+        "--font-body": "\"Hanken Grotesk\", \"Segoe UI\", sans-serif",
+        "--radius-card": "8px",
+        "--spacing-unit": "8px"
+      },
+      "colorPalette": {
+        "background": "#0b1020",
+        "surface": "#151b2d",
+        "panel": "#20283f",
+        "primary": "#20e3b2",
+        "accent": "#ffb86b",
+        "danger": "#ff5c7a",
+        "text": "#eef4ff",
+        "muted": "#9ba8c7"
+      },
+      "fonts": [],
+      "layoutHints": {},
+      "behaviorContract": [
+        {
+          "kind": "link",
+          "label": "Dashboard",
+          "icon": null,
+          "route": "#fallback-dashboard",
+          "expectedBehavior": "navigate:#fallback-dashboard"
+        },
+        {
+          "kind": "link",
+          "label": "Create Edit",
+          "icon": null,
+          "route": "#fallback-create-edit",
+          "expectedBehavior": "navigate:#fallback-create-edit"
+        },
+        {
+          "kind": "link",
+          "label": "Detail",
+          "icon": null,
+          "route": "#fallback-detail",
+          "expectedBehavior": "navigate:#fallback-detail"
+        },
+        {
+          "kind": "link",
+          "label": "Insights",
+          "icon": null,
+          "route": "#fallback-insights",
+          "expectedBehavior": "navigate:#fallback-insights"
+        },
+        {
+          "kind": "link",
+          "label": "Settings",
+          "icon": null,
+          "route": "#fallback-settings",
+          "expectedBehavior": "navigate:#fallback-settings"
+        },
+        {
+          "kind": "link",
+          "label": "Error State",
+          "icon": null,
+          "route": "#fallback-error-state",
+          "expectedBehavior": "navigate:#fallback-error-state"
+        },
+        {
+          "kind": "link",
+          "label": "Empty State",
+          "icon": null,
+          "route": "#fallback-empty-state",
+          "expectedBehavior": "navigate:#fallback-empty-state"
+        },
+        {
+          "kind": "button",
+          "label": "Save Settings",
+          "icon": null,
+          "action": "form-submit",
+          "expectedBehavior": "validate inputs and submit/apply changes"
+        },
+        {
+          "kind": "button",
+          "label": "Reset Defaults",
+          "icon": null,
+          "action": "reset",
+          "expectedBehavior": "reset visible value/state, with confirmation if destructive"
+        },
+        {
+          "kind": "input",
+          "label": "level",
+          "type": "select",
+          "placeholder": "",
+          "expectedBehavior": "controlled value with onChange; validation if required by PRD"
+        },
+        {
+          "kind": "input",
+          "label": "assist",
+          "type": "select",
+          "placeholder": "",
+          "expectedBehavior": "controlled value with onChange; validation if required by PRD"
+        },
+        {
+          "kind": "input",
+          "label": "Arrow keys, WASD, or touch",
+          "type": "input",
+          "placeholder": "Arrow keys, WASD, or touch",
+          "expectedBehavior": "controlled value with onChange; validation if required by PRD"
+        }
+      ],
+      "tabBar": [
+        {
+          "kind": "link",
+          "label": "Dashboard",
+          "icon": null,
+          "route": "#fallback-dashboard",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Create Edit",
+          "icon": null,
+          "route": "#fallback-create-edit",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Detail",
+          "icon": null,
+          "route": "#fallback-detail",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Insights",
+          "icon": null,
+          "route": "#fallback-insights",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Settings",
+          "icon": null,
+          "route": "#fallback-settings",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Error State",
+          "icon": null,
+          "route": "#fallback-error-state",
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "Empty State",
+          "icon": null,
+          "route": "#fallback-empty-state",
+          "active": false
+        }
+      ],
+      "title": "Settings"
+    }
+  }
+}

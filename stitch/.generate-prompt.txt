@@ -1,0 +1,67 @@
+Generate exactly 7 separate DESKTOP screens for "Atlas Tasks" in one Stitch batch call.
+
+Screen titles must match exactly:
+1. Dashboard (dashboard) - Primary data, filters, and the main product actions.
+2. Create Edit (form) - CRUD form with validation, cancel, and save behavior.
+3. Detail (detail) - Selected record summary with secondary actions.
+4. Insights (insights) - Useful summary metrics for the user.
+5. Settings (settings) - Preferences and visible state-changing controls.
+6. Error State (error) - Retry and clear actions for storage or runtime errors.
+7. Empty State (empty) - No-data state that guides the user to the first action.
+
+Application summary:
+# Atlas Tasks PRD
+
+## Overview
+Atlas Tasks turns the user's request into a directly usable application. The first screen is not a landing page; it is the real workflow surface where the user can inspect data, take actions, and recover from empty or error states. User-facing copy language: English. Pipeline metadata, story titles, component identifiers, and technical reports remain English.
+
+## Goals
+- Provide a working first-load experience with populated, empty, loading, and error states.
+- Ensure every visible button and icon button triggers a real route, state change, panel, modal, or form behavior.
+- Avoid text overflow, incoherent overlap, dead controls, and broken back navigation on mobile and desktop.
+- Persist data through localStorage or the chosen data layer with visible error, retry, and reset behavior.
+- Expose deterministic state so smoke, final-test, and deploy gates can verify the application surface.
+
+## Technical Decisions
+- Framework: React 18 + Vite + TypeScript.
+- Styling: Tailwind CSS or plain CSS modules with a restrained product-tool visual system.
+- State: React state plus reducer/context; avoid an extra global-state library for small apps.
+- Storage: localStorage with visible retry and clear actions for persistence failures.
+- Icons: Lucide React; do not use emoji as controls.
+- Test surface: expose state, active screen, errors, counters, and active panel under window.app.
+
+## Functional Requirements
+- R1: Build a compact browser operations app called Atlas Tasks. It should provide a usable first screen with a task board, project filter, task create/edit modal, keyboard/touch-friendly controls, help/settings screens, local persistence, empty/error states, and responsive UI. The implementation must follow the generated Stitch screens, wire every visible button/link/control from the DOM extract, and QA must compare the running app against the Stitch artifacts.
+- Forms provide required-field validation and visible error messages.
+- Filtering, search, create, edit, delete, profile, settings, retry, and clear actions produce visible state changes in smoke tests.
+- Product controls must not use data-smoke-ignore; intentionally unavailable controls are disabled or aria-disabled.
+
+## Data Model
+- Entity fields are defined as TypeScript types that match the task domain.
+- Every persisted record includes id, createdAt, and updatedAt.
+- Global preferences such as settings and profile data are separated from domain entity state.
+- Storage schema is versioned; corrupt JSON shows a visible error state instead of silently resetting.
+
+## UI/UX Requirements
+- User-facing language: English.
+- Aesthetic: corporate/minimal, quiet, scannable, and appropriate for repeated product use.
+- Palette: Primary #2563EB, Secondary #475569, Background #F8FAFC, Surface #FFFFFF, Text #0F172A, Border #E2E8F0, Success #16A34A, Error #DC2626, Warning #D97706.
+- Typography: Inter or system sans; compact panels use small but readable headings.
+- Components: cards at 8px radius or less, clear focus rings, and 44x44px touch targets.
+- The profile/account icon must open a panel, drawer, or page with close/back behavior.
+
+## Non-Functional
+- Performance: target first load under 2s and client state transitions under 100ms.
+- Accessibility: WCAG 2.1 AA, keyboard navigation, aria-labels, focus states, and sufficient contrast.
+- Responsive: support 320px mobile widths through desktop with stacking, grid, or scrollable columns.
+- Error handling: storage and form errors are visible, retryable, and clearable.
+
+Batch generation rules:
+- Generate exactly 7 screens. Do not generate more or fewer screens.
+- Do not create a PRD, requirements document, sitemap, landing page, or generic dashboard screen unless it is explicitly listed above.
+- Do not combine multiple listed screens into one design.
+- Each listed screen must be complete, production-quality, and visually consistent with the others.
+- Use a polished modern interface with real layout density and visible controls.
+- All visible user-facing text must be in English.
+- Keep screen metadata and technical identifiers in English.
+- Use a cohesive design system across all screens.

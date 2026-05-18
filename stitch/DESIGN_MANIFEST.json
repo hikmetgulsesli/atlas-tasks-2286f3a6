@@ -1,0 +1,51 @@
+[
+  {
+    "screenId": "fallback-dashboard",
+    "title": "Dashboard",
+    "htmlFile": "fallback-dashboard.html",
+    "deviceType": "DESKTOP",
+    "source": "local-fallback"
+  },
+  {
+    "screenId": "fallback-create-edit",
+    "title": "Create Edit",
+    "htmlFile": "fallback-create-edit.html",
+    "deviceType": "DESKTOP",
+    "source": "local-fallback"
+  },
+  {
+    "screenId": "fallback-detail",
+    "title": "Detail",
+    "htmlFile": "fallback-detail.html",
+    "deviceType": "DESKTOP",
+    "source": "local-fallback"
+  },
+  {
+    "screenId": "fallback-insights",
+    "title": "Insights",
+    "htmlFile": "fallback-insights.html",
+    "deviceType": "DESKTOP",
+    "source": "local-fallback"
+  },
+  {
+    "screenId": "fallback-settings",
+    "title": "Settings",
+    "htmlFile": "fallback-settings.html",
+    "deviceType": "DESKTOP",
+    "source": "local-fallback"
+  },
+  {
+    "screenId": "fallback-error-state",
+    "title": "Error State",
+    "htmlFile": "fallback-error-state.html",
+    "deviceType": "DESKTOP",
+    "source": "local-fallback"
+  },
+  {
+    "screenId": "fallback-empty-state",
+    "title": "Empty State",
+    "htmlFile": "fallback-empty-state.html",
+    "deviceType": "DESKTOP",
+    "source": "local-fallback"
+  }
+]

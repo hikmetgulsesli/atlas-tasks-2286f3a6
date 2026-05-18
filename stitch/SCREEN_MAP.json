@@ -1,0 +1,44 @@
+[
+  {
+    "screenId": "fallback-dashboard",
+    "name": "Dashboard",
+    "type": "app-screen",
+    "description": "Dashboard screen"
+  },
+  {
+    "screenId": "fallback-create-edit",
+    "name": "Create Edit",
+    "type": "form",
+    "description": "Create Edit screen"
+  },
+  {
+    "screenId": "fallback-detail",
+    "name": "Detail",
+    "type": "detail",
+    "description": "Detail screen"
+  },
+  {
+    "screenId": "fallback-insights",
+    "name": "Insights",
+    "type": "app-screen",
+    "description": "Insights screen"
+  },
+  {
+    "screenId": "fallback-settings",
+    "name": "Settings",
+    "type": "settings",
+    "description": "Settings screen"
+  },
+  {
+    "screenId": "fallback-error-state",
+    "name": "Error State",
+    "type": "error",
+    "description": "Error State screen"
+  },
+  {
+    "screenId": "fallback-empty-state",
+    "name": "Empty State",
+    "type": "error",
+    "description": "Empty State screen"
+  }
+]
