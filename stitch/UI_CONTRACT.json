@@ -8,53 +8,53 @@
         "type": "link",
         "label": "Dashboard",
         "href": "#fallback-dashboard",
-        "line": 1
+        "line": 53
       },
       {
         "type": "link",
         "label": "Create Edit",
         "href": "#fallback-create-edit",
-        "line": 2
+        "line": 53
       },
       {
         "type": "link",
         "label": "Detail",
         "href": "#fallback-detail",
-        "line": 3
+        "line": 53
       },
       {
         "type": "link",
         "label": "Insights",
         "href": "#fallback-insights",
-        "line": 4
+        "line": 53
       },
       {
         "type": "link",
         "label": "Settings",
         "href": "#fallback-settings",
-        "line": 5
+        "line": 53
       },
       {
         "type": "link",
         "label": "Error State",
         "href": "#fallback-error-state",
-        "line": 6
+        "line": 53
       },
       {
         "type": "link",
         "label": "Empty State",
         "href": "#fallback-empty-state",
-        "line": 7
+        "line": 53
       },
       {
         "type": "button",
-        "label": "Start Game",
-        "line": 1
+        "label": "Pause",
+        "line": 62
       },
       {
         "type": "button",
-        "label": "Open Settings",
-        "line": 1
+        "label": "Restart",
+        "line": 62
       }
     ],
     "navigation": [
@@ -62,61 +62,61 @@
         "type": "link",
         "label": "Dashboard",
         "href": "#fallback-dashboard",
-        "line": 1
+        "line": 53
       },
       {
         "type": "link",
         "label": "Create Edit",
         "href": "#fallback-create-edit",
-        "line": 2
+        "line": 53
       },
       {
         "type": "link",
         "label": "Detail",
         "href": "#fallback-detail",
-        "line": 3
+        "line": 53
       },
       {
         "type": "link",
         "label": "Insights",
         "href": "#fallback-insights",
-        "line": 4
+        "line": 53
       },
       {
         "type": "link",
         "label": "Settings",
         "href": "#fallback-settings",
-        "line": 5
+        "line": 53
       },
       {
         "type": "link",
         "label": "Error State",
         "href": "#fallback-error-state",
-        "line": 6
+        "line": 53
       },
       {
         "type": "link",
         "label": "Empty State",
         "href": "#fallback-empty-state",
-        "line": 7
+        "line": 53
       }
     ],
     "buttons": [
       {
         "type": "button",
-        "label": "Start Game",
-        "line": 1
+        "label": "Pause",
+        "line": 62
       },
       {
         "type": "button",
-        "label": "Open Settings",
-        "line": 1
+        "label": "Restart",
+        "line": 62
       }
     ],
     "inputs": [],
     "hardcodedData": [],
     "totalInteractive": 9,
-    "requiresRouter": false,
+    "requiresRouter": true,
     "requiresDragDrop": false
   },
   {
@@ -128,53 +128,58 @@
         "type": "link",
         "label": "Dashboard",
         "href": "#fallback-dashboard",
-        "line": 1
+        "line": 53
       },
       {
         "type": "link",
         "label": "Create Edit",
         "href": "#fallback-create-edit",
-        "line": 2
+        "line": 53
       },
       {
         "type": "link",
         "label": "Detail",
         "href": "#fallback-detail",
-        "line": 3
+        "line": 53
       },
       {
         "type": "link",
         "label": "Insights",
         "href": "#fallback-insights",
-        "line": 4
+        "line": 53
       },
       {
         "type": "link",
         "label": "Settings",
         "href": "#fallback-settings",
-        "line": 5
+        "line": 53
       },
       {
         "type": "link",
         "label": "Error State",
         "href": "#fallback-error-state",
-        "line": 6
+        "line": 53
       },
       {
         "type": "link",
         "label": "Empty State",
         "href": "#fallback-empty-state",
-        "line": 7
+        "line": 53
       },
       {
         "type": "button",
-        "label": "Restart",
-        "line": 1
+        "label": "Start Game",
+        "line": 58
+      },
+      {
+        "type": "button",
+        "label": "Resume",
+        "line": 58
       },
       {
         "type": "button",
         "label": "Open Settings",
-        "line": 1
+        "line": 58
       }
     ],
     "navigation": [
@@ -182,61 +187,66 @@
         "type": "link",
         "label": "Dashboard",
         "href": "#fallback-dashboard",
-        "line": 1
+        "line": 53
       },
       {
         "type": "link",
         "label": "Create Edit",
         "href": "#fallback-create-edit",
-        "line": 2
+        "line": 53
       },
       {
         "type": "link",
         "label": "Detail",
         "href": "#fallback-detail",
-        "line": 3
+        "line": 53
       },
       {
         "type": "link",
         "label": "Insights",
         "href": "#fallback-insights",
-        "line": 4
+        "line": 53
       },
       {
         "type": "link",
         "label": "Settings",
         "href": "#fallback-settings",
-        "line": 5
+        "line": 53
       },
       {
         "type": "link",
         "label": "Error State",
         "href": "#fallback-error-state",
-        "line": 6
+        "line": 53
       },
       {
         "type": "link",
         "label": "Empty State",
         "href": "#fallback-empty-state",
-        "line": 7
+        "line": 53
       }
     ],
     "buttons": [
       {
         "type": "button",
-        "label": "Restart",
-        "line": 1
+        "label": "Start Game",
+        "line": 58
+      },
+      {
+        "type": "button",
+        "label": "Resume",
+        "line": 58
       },
       {
         "type": "button",
         "label": "Open Settings",
-        "line": 1
+        "line": 58
       }
     ],
     "inputs": [],
     "hardcodedData": [],
-    "totalInteractive": 9,
-    "requiresRouter": false,
+    "totalInteractive": 10,
+    "requiresRouter": true,
     "requiresDragDrop": false
   },
   {
@@ -248,53 +258,58 @@
         "type": "link",
         "label": "Dashboard",
         "href": "#fallback-dashboard",
-        "line": 1
+        "line": 53
       },
       {
         "type": "link",
         "label": "Create Edit",
         "href": "#fallback-create-edit",
-        "line": 2
+        "line": 53
       },
       {
         "type": "link",
         "label": "Detail",
         "href": "#fallback-detail",
-        "line": 3
+        "line": 53
       },
       {
         "type": "link",
         "label": "Insights",
         "href": "#fallback-insights",
-        "line": 4
+        "line": 53
       },
       {
         "type": "link",
         "label": "Settings",
         "href": "#fallback-settings",
-        "line": 5
+        "line": 53
       },
       {
         "type": "link",
         "label": "Error State",
         "href": "#fallback-error-state",
-        "line": 6
+        "line": 53
       },
       {
         "type": "link",
         "label": "Empty State",
         "href": "#fallback-empty-state",
-        "line": 7
+        "line": 53
       },
       {
         "type": "button",
-        "label": "Restart",
-        "line": 1
+        "label": "Start Game",
+        "line": 58
+      },
+      {
+        "type": "button",
+        "label": "Resume",
+        "line": 58
       },
       {
         "type": "button",
         "label": "Open Settings",
-        "line": 1
+        "line": 58
       }
     ],
     "navigation": [
@@ -302,61 +317,66 @@
         "type": "link",
         "label": "Dashboard",
         "href": "#fallback-dashboard",
-        "line": 1
+        "line": 53
       },
       {
         "type": "link",
         "label": "Create Edit",
         "href": "#fallback-create-edit",
-        "line": 2
+        "line": 53
       },
       {
         "type": "link",
         "label": "Detail",
         "href": "#fallback-detail",
-        "line": 3
+        "line": 53
       },
       {
         "type": "link",
         "label": "Insights",
         "href": "#fallback-insights",
-        "line": 4
+        "line": 53
       },
       {
         "type": "link",
         "label": "Settings",
         "href": "#fallback-settings",
-        "line": 5
+        "line": 53
       },
       {
         "type": "link",
         "label": "Error State",
         "href": "#fallback-error-state",
-        "line": 6
+        "line": 53
       },
       {
         "type": "link",
         "label": "Empty State",
         "href": "#fallback-empty-state",
-        "line": 7
+        "line": 53
       }
     ],
     "buttons": [
       {
         "type": "button",
-        "label": "Restart",
-        "line": 1
+        "label": "Start Game",
+        "line": 58
+      },
+      {
+        "type": "button",
+        "label": "Resume",
+        "line": 58
       },
       {
         "type": "button",
         "label": "Open Settings",
-        "line": 1
+        "line": 58
       }
     ],
     "inputs": [],
     "hardcodedData": [],
-    "totalInteractive": 9,
-    "requiresRouter": false,
+    "totalInteractive": 10,
+    "requiresRouter": true,
     "requiresDragDrop": false
   },
   {
@@ -368,53 +388,58 @@
         "type": "link",
         "label": "Dashboard",
         "href": "#fallback-dashboard",
-        "line": 1
+        "line": 53
       },
       {
         "type": "link",
         "label": "Create Edit",
         "href": "#fallback-create-edit",
-        "line": 2
+        "line": 53
       },
       {
         "type": "link",
         "label": "Detail",
         "href": "#fallback-detail",
-        "line": 3
+        "line": 53
       },
       {
         "type": "link",
         "label": "Insights",
         "href": "#fallback-insights",
-        "line": 4
+        "line": 53
       },
       {
         "type": "link",
         "label": "Settings",
         "href": "#fallback-settings",
-        "line": 5
+        "line": 53
       },
       {
         "type": "link",
         "label": "Error State",
         "href": "#fallback-error-state",
-        "line": 6
+        "line": 53
       },
       {
         "type": "link",
         "label": "Empty State",
         "href": "#fallback-empty-state",
-        "line": 7
+        "line": 53
       },
       {
         "type": "button",
-        "label": "Restart",
-        "line": 1
+        "label": "Start Game",
+        "line": 58
+      },
+      {
+        "type": "button",
+        "label": "Resume",
+        "line": 58
       },
       {
         "type": "button",
         "label": "Open Settings",
-        "line": 1
+        "line": 58
       }
     ],
     "navigation": [
@@ -422,61 +447,66 @@
         "type": "link",
         "label": "Dashboard",
         "href": "#fallback-dashboard",
-        "line": 1
+        "line": 53
       },
       {
         "type": "link",
         "label": "Create Edit",
         "href": "#fallback-create-edit",
-        "line": 2
+        "line": 53
       },
       {
         "type": "link",
         "label": "Detail",
         "href": "#fallback-detail",
-        "line": 3
+        "line": 53
       },
       {
         "type": "link",
         "label": "Insights",
         "href": "#fallback-insights",
-        "line": 4
+        "line": 53
       },
       {
         "type": "link",
         "label": "Settings",
         "href": "#fallback-settings",
-        "line": 5
+        "line": 53
       },
       {
         "type": "link",
         "label": "Error State",
         "href": "#fallback-error-state",
-        "line": 6
+        "line": 53
       },
       {
         "type": "link",
         "label": "Empty State",
         "href": "#fallback-empty-state",
-        "line": 7
+        "line": 53
       }
     ],
     "buttons": [
       {
         "type": "button",
-        "label": "Restart",
-        "line": 1
+        "label": "Start Game",
+        "line": 58
+      },
+      {
+        "type": "button",
+        "label": "Resume",
+        "line": 58
       },
       {
         "type": "button",
         "label": "Open Settings",
-        "line": 1
+        "line": 58
       }
     ],
     "inputs": [],
     "hardcodedData": [],
-    "totalInteractive": 9,
-    "requiresRouter": false,
+    "totalInteractive": 10,
+    "requiresRouter": true,
     "requiresDragDrop": false
   },
   {
@@ -488,53 +518,77 @@
         "type": "link",
         "label": "Dashboard",
         "href": "#fallback-dashboard",
-        "line": 1
+        "line": 53
       },
       {
         "type": "link",
         "label": "Create Edit",
         "href": "#fallback-create-edit",
-        "line": 2
+        "line": 53
       },
       {
         "type": "link",
         "label": "Detail",
         "href": "#fallback-detail",
-        "line": 3
+        "line": 53
       },
       {
         "type": "link",
         "label": "Insights",
         "href": "#fallback-insights",
-        "line": 4
+        "line": 53
       },
       {
         "type": "link",
         "label": "Settings",
         "href": "#fallback-settings",
-        "line": 5
+        "line": 53
       },
       {
         "type": "link",
         "label": "Error State",
         "href": "#fallback-error-state",
-        "line": 6
+        "line": 53
       },
       {
         "type": "link",
         "label": "Empty State",
         "href": "#fallback-empty-state",
-        "line": 7
+        "line": 53
       },
       {
         "type": "button",
-        "label": "Restart",
-        "line": 1
+        "label": "Save Settings",
+        "line": 60
       },
       {
         "type": "button",
-        "label": "Open Settings",
-        "line": 1
+        "label": "Reset Defaults",
+        "line": 60
+      },
+      {
+        "type": "input",
+        "label": "select",
+        "inputType": "select",
+        "line": 57
+      },
+      {
+        "type": "input",
+        "label": "select",
+        "inputType": "select",
+        "line": 58
+      },
+      {
+        "type": "input",
+        "label": "Arrow keys, WASD, or touch",
+        "inputType": "text",
+        "placeholder": "Arrow keys, WASD, or touch",
+        "line": 59
+      },
+      {
+        "type": "form",
+        "label": "form",
+        "line": 56
       }
     ],
     "navigation": [
@@ -542,69 +596,81 @@
         "type": "link",
         "label": "Dashboard",
         "href": "#fallback-dashboard",
-        "line": 1
+        "line": 53
       },
       {
         "type": "link",
         "label": "Create Edit",
         "href": "#fallback-create-edit",
-        "line": 2
+        "line": 53
       },
       {
         "type": "link",
         "label": "Detail",
         "href": "#fallback-detail",
-        "line": 3
+        "line": 53
       },
       {
         "type": "link",
         "label": "Insights",
         "href": "#fallback-insights",
-        "line": 4
+        "line": 53
       },
       {
         "type": "link",
         "label": "Settings",
         "href": "#fallback-settings",
-        "line": 5
+        "line": 53
       },
       {
         "type": "link",
         "label": "Error State",
         "href": "#fallback-error-state",
-        "line": 6
+        "line": 53
       },
       {
         "type": "link",
         "label": "Empty State",
         "href": "#fallback-empty-state",
-        "line": 7
+        "line": 53
       }
     ],
     "buttons": [
       {
         "type": "button",
-        "label": "Restart",
-        "line": 1
+        "label": "Save Settings",
+        "line": 60
       },
       {
         "type": "button",
-        "label": "Open Settings",
-        "line": 1
+        "label": "Reset Defaults",
+        "line": 60
       }
     ],
     "inputs": [
       {
         "type": "input",
-        "label": "Start Level",
+        "label": "select",
         "inputType": "select",
-        "placeholder": "Level",
-        "line": 1
+        "line": 57
+      },
+      {
+        "type": "input",
+        "label": "select",
+        "inputType": "select",
+        "line": 58
+      },
+      {
+        "type": "input",
+        "label": "Arrow keys, WASD, or touch",
+        "inputType": "text",
+        "placeholder": "Arrow keys, WASD, or touch",
+        "line": 59
       }
     ],
     "hardcodedData": [],
-    "totalInteractive": 9,
-    "requiresRouter": false,
+    "totalInteractive": 13,
+    "requiresRouter": true,
     "requiresDragDrop": false
   },
   {
@@ -616,53 +682,58 @@
         "type": "link",
         "label": "Dashboard",
         "href": "#fallback-dashboard",
-        "line": 1
+        "line": 53
       },
       {
         "type": "link",
         "label": "Create Edit",
         "href": "#fallback-create-edit",
-        "line": 2
+        "line": 53
       },
       {
         "type": "link",
         "label": "Detail",
         "href": "#fallback-detail",
-        "line": 3
+        "line": 53
       },
       {
         "type": "link",
         "label": "Insights",
         "href": "#fallback-insights",
-        "line": 4
+        "line": 53
       },
       {
         "type": "link",
         "label": "Settings",
         "href": "#fallback-settings",
-        "line": 5
+        "line": 53
       },
       {
         "type": "link",
         "label": "Error State",
         "href": "#fallback-error-state",
-        "line": 6
+        "line": 53
       },
       {
         "type": "link",
         "label": "Empty State",
         "href": "#fallback-empty-state",
-        "line": 7
+        "line": 53
       },
       {
         "type": "button",
-        "label": "Restart",
-        "line": 1
+        "label": "Start Game",
+        "line": 58
+      },
+      {
+        "type": "button",
+        "label": "Resume",
+        "line": 58
       },
       {
         "type": "button",
         "label": "Open Settings",
-        "line": 1
+        "line": 58
       }
     ],
     "navigation": [
@@ -670,61 +741,66 @@
         "type": "link",
         "label": "Dashboard",
         "href": "#fallback-dashboard",
-        "line": 1
+        "line": 53
       },
       {
         "type": "link",
         "label": "Create Edit",
         "href": "#fallback-create-edit",
-        "line": 2
+        "line": 53
       },
       {
         "type": "link",
         "label": "Detail",
         "href": "#fallback-detail",
-        "line": 3
+        "line": 53
       },
       {
         "type": "link",
         "label": "Insights",
         "href": "#fallback-insights",
-        "line": 4
+        "line": 53
       },
       {
         "type": "link",
         "label": "Settings",
         "href": "#fallback-settings",
-        "line": 5
+        "line": 53
       },
       {
         "type": "link",
         "label": "Error State",
         "href": "#fallback-error-state",
-        "line": 6
+        "line": 53
       },
       {
         "type": "link",
         "label": "Empty State",
         "href": "#fallback-empty-state",
-        "line": 7
+        "line": 53
       }
     ],
     "buttons": [
       {
         "type": "button",
-        "label": "Restart",
-        "line": 1
+        "label": "Start Game",
+        "line": 58
+      },
+      {
+        "type": "button",
+        "label": "Resume",
+        "line": 58
       },
       {
         "type": "button",
         "label": "Open Settings",
-        "line": 1
+        "line": 58
       }
     ],
     "inputs": [],
     "hardcodedData": [],
-    "totalInteractive": 9,
-    "requiresRouter": false,
+    "totalInteractive": 10,
+    "requiresRouter": true,
     "requiresDragDrop": false
   },
   {
@@ -736,53 +812,58 @@
         "type": "link",
         "label": "Dashboard",
         "href": "#fallback-dashboard",
-        "line": 1
+        "line": 53
       },
       {
         "type": "link",
         "label": "Create Edit",
         "href": "#fallback-create-edit",
-        "line": 2
+        "line": 53
       },
       {
         "type": "link",
         "label": "Detail",
         "href": "#fallback-detail",
-        "line": 3
+        "line": 53
       },
       {
         "type": "link",
         "label": "Insights",
         "href": "#fallback-insights",
-        "line": 4
+        "line": 53
       },
       {
         "type": "link",
         "label": "Settings",
         "href": "#fallback-settings",
-        "line": 5
+        "line": 53
       },
       {
         "type": "link",
         "label": "Error State",
         "href": "#fallback-error-state",
-        "line": 6
+        "line": 53
       },
       {
         "type": "link",
         "label": "Empty State",
         "href": "#fallback-empty-state",
-        "line": 7
+        "line": 53
       },
       {
         "type": "button",
-        "label": "Restart",
-        "line": 1
+        "label": "Start Game",
+        "line": 58
+      },
+      {
+        "type": "button",
+        "label": "Resume",
+        "line": 58
       },
       {
         "type": "button",
         "label": "Open Settings",
-        "line": 1
+        "line": 58
       }
     ],
     "navigation": [
@@ -790,61 +871,66 @@
         "type": "link",
         "label": "Dashboard",
         "href": "#fallback-dashboard",
-        "line": 1
+        "line": 53
       },
       {
         "type": "link",
         "label": "Create Edit",
         "href": "#fallback-create-edit",
-        "line": 2
+        "line": 53
       },
       {
         "type": "link",
         "label": "Detail",
         "href": "#fallback-detail",
-        "line": 3
+        "line": 53
       },
       {
         "type": "link",
         "label": "Insights",
         "href": "#fallback-insights",
-        "line": 4
+        "line": 53
       },
       {
         "type": "link",
         "label": "Settings",
         "href": "#fallback-settings",
-        "line": 5
+        "line": 53
       },
       {
         "type": "link",
         "label": "Error State",
         "href": "#fallback-error-state",
-        "line": 6
+        "line": 53
       },
       {
         "type": "link",
         "label": "Empty State",
         "href": "#fallback-empty-state",
-        "line": 7
+        "line": 53
       }
     ],
     "buttons": [
       {
         "type": "button",
-        "label": "Restart",
-        "line": 1
+        "label": "Start Game",
+        "line": 58
+      },
+      {
+        "type": "button",
+        "label": "Resume",
+        "line": 58
       },
       {
         "type": "button",
         "label": "Open Settings",
-        "line": 1
+        "line": 58
       }
     ],
     "inputs": [],
     "hardcodedData": [],
-    "totalInteractive": 9,
-    "requiresRouter": false,
+    "totalInteractive": 10,
+    "requiresRouter": true,
     "requiresDragDrop": false
   }
 ]
